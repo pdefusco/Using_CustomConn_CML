@@ -35,7 +35,7 @@ class MySQLCustomImp(CustomConnection):
 
     def get_connection(self):
         try:
-            import psycopg2
+            import mysql.connector
         except ImportError:
             raise ImportError(
                 'mysql.connector module not found, install it with "pip install mysql-connector-python"'
