@@ -1,6 +1,7 @@
 """Postgres Dataconn Connection Implementation"""
 import glob
 import sys
+import os
 from os import environ
 from cml.data_v1.customconnection import CustomConnection
 
