@@ -1,7 +1,10 @@
 import glob
 import sys
 import os
+import mysql.connector
+from mysql.connector import Error
 from cml.data_v1.customconnection import CustomConnection
+
 
 class MySQLCustomImp(CustomConnection):
     """Using mysql-connector-python to connect to MySQL DBs"""
