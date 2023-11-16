@@ -6,4 +6,4 @@ Data Scientists and Engineers use CML to securely analyze large amounts of data 
 
 In 2023 CML added new capabilities to this feature with CML [*Custom* Data Connections](https://docs.cloudera.com/machine-learning/cloud/mlde/topics/ml-custom-data-conn-create.html). CCD allows the CML user to create their own boiler template code so they can connect to 3rd party tools such as Snowflake, Postgres, and others.
 
-This repository is corollary to this CML Blog Article and provides the code to reproduce in your CML Workspace (version 2.0.38 or above required).
+This repository is corollary to this [Cloudera Community Article](https://community.cloudera.com/t5/Community-Articles/Using-Custom-Data-Connections-in-Cloudera-Machine-Learning/ta-p/379132) and provides the code to reproduce in your CML Workspace (version 2.0.38 or above required).
